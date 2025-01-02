@@ -11,5 +11,9 @@ jobs:
       run: ls -al
     - name: 2. 파이썬 패키지 확인
       run: pip list
+    - name: 3.pip udgrade
+      run: python -m pip install --upgrade
+    - name: 4.package install
+      run: pip install -r requirements.txt
     - name: 3. 파이썬 실행
       run: python test.py

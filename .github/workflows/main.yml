@@ -1,13 +1,8 @@
-# gitactions 이름
 name: helloGithubAction
 
-# push가 일어났을 경우 아래 jobs실행
-# [push, pull_request] 등과 같이 다중 이벤트 처리 가능
 on: [push]
 
-# 위 이벤트가 일어났을 경우 실행될 job, 여러개 설정 가능.
 jobs: 
-  # 작업 단위
   build:
     runs-on: ubuntu-latest
     steps:

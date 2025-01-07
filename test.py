@@ -10,7 +10,7 @@ print('html: ', html)
 soup = BeautifulSoup(html, 'html.parser')
 print('soup: ', soup)
 
-bookservices = soup.select('.title_text')
+bookservices = soup.select('.fig-16r7kln')
 for no, book in enumerate(bookservices, 1):
   print(no, book.text.strip())
   print('222')

@@ -14,4 +14,4 @@ jobs:
     - name: 2. 변수출력
       env:
        ID: ${{ github.actor }}
-      run: echo "내 아이디는 $ID 입니다."
+      run: echo "내 이름은 $Name 입니다. 내 아이디는 $ID 입니다."
